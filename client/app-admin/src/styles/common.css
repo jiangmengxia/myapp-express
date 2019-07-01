@@ -1,0 +1,92 @@
+body{
+    font-size: 18px;
+    height: 100%;
+
+}
+#body{
+    width: 100%;
+    height: 100%;
+}
+#side{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 180px;
+    height: 100%;
+}
+#router-view{
+    position: absolute;
+    left: 180px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #ffffff;
+    padding: 20px;
+}
+.text-center{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.3);
+}
+thead{
+    background: #dddddd;
+}
+thead th{
+    border: none;
+    padding: 10px;
+    border-spacing: 0 !important;
+}
+tbody tr{
+
+}
+tbody tr td{
+    border: none;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+}
+.pull-right{
+    float: right;
+}
+.clx{
+    clear: both;
+}
+.mt-20{
+    margin-top:20px;
+}
+.mb-20{
+    margin-bottom:20px;
+}
+.mr-20{
+    margin-right:20px;
+}
+.ml-20{
+    margin-left:20px;
+}
+.bg-white{
+    background: white;
+}
+.border-bottom-theme{
+    border-bottom: 1px solid #dfdfdf;
+}
+.border-top-theme{
+    border-top: 1px solid #dfdfdf;
+}
+.table{
+    display: table;
+}
+.table-cell{
+    display: table-cell;
+}
+.ver-mid{
+    vertical-align: middle;
+}
+.width-100{
+    width: 100%;
+}
+.height-100{
+    height: 100%;
+}
